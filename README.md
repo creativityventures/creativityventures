@@ -2,6 +2,12 @@
 
 Researching verifiable, confidential and scalable onchain systems. Focus: STARK, SNARK, FHE, Base agents and Hyperliquid / HyperEVM infrastructure.
 
+## Research workflow
+
+This profile uses a source-first review method: define scope, trace claims to upstream evidence, model trust and threats, check invariants, and record limitations. See [RESEARCH-METHODOLOGY.md](RESEARCH-METHODOLOGY.md) for the full workflow.
+
+The repository is a research notebook, not an audit report. Explanations distinguish observed implementation details from interpretation, and they do not claim tests, audits or production readiness unless those results are independently established.
+
 ## Featured technical work
 
 - [AgentKit on Base](https://github.com/creativityventures/agentkit/tree/main/docs/fr) — wallet authority, typed actions, MCP, prompt injection, transaction policies and human approval.
@@ -17,5 +23,7 @@ Researching verifiable, confidential and scalable onchain systems. Focus: STARK,
 - One focused commit per technical chapter.
 - Security limits and operational assumptions stated clearly.
 - Documentation work does not claim an audit or production readiness.
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for review expectations and [SECURITY.md](SECURITY.md) for reporting and handling boundaries.
 
 Existing research also covers DeFi protocols, AMMs, lending systems and smart-contract primitives.
