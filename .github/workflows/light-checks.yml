@@ -1,0 +1,17 @@
+name: Light repository checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check Python syntax
+        run: python -m compileall -q prototype
+      - name: Check expected documentation
+        run: test -f docs/ARCHITECTURE.md && test -f docs/THREAT-MODEL.md && test -f docs/SOURCES.md && test -f docs/COVERAGE.md
