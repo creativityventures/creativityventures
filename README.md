@@ -27,3 +27,14 @@ The repository is a research notebook, not an audit report. Explanations disting
 See [CONTRIBUTING.md](CONTRIBUTING.md) for review expectations and [SECURITY.md](SECURITY.md) for reporting and handling boundaries.
 
 Existing research also covers DeFi protocols, AMMs, lending systems and smart-contract primitives.
+
+## Navigation technique
+
+- [Architecture de recherche](docs/ARCHITECTURE.md) — couches de preuve, invariants et décision.
+- [Modèle de menaces](docs/THREAT-MODEL.md) — surfaces Base, Hyperliquid, HyperEVM, ZK et FHE.
+- [Sources officielles](docs/SOURCES.md) — références primaires à consulter.
+- [Matrice de couverture](docs/COVERAGE.md) — mécanismes, prototypes, invariants et limites.
+- [Références fichier/fonction](docs/REFERENCES.md) — points d’entrée précis dans les prototypes.
+- [Prototypes](prototype/) — exemples Python autonomes et documentaires.
+
+Les contrôles automatisés de syntaxe et de structure sont définis dans [.github/workflows/light-checks.yml](.github/workflows/light-checks.yml). Ils ne constituent pas un audit de sécurité.
