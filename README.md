@@ -1,6 +1,10 @@
 # creativity ventures
 
-Researching verifiable, confidential and scalable onchain systems. Focus: STARK, SNARK, FHE, Base agents and Hyperliquid / HyperEVM infrastructure.
+Researching verifiable, confidential and scalable onchain systems. Focus: STARK, SNARK, FHE, Base AI agents and Hyperliquid / HyperEVM infrastructure.
+
+## Parcours français
+
+Le parcours documentaire français rassemble 73 chapitres source-grounded sur les prototypes de preuve, les invariants et les frontières de confiance. Consulter le [sommaire français](docs/fr/README.md) pour suivre les contributions dans l’ordre.
 
 ## Research workflow
 
